@@ -21,8 +21,8 @@ h1:hover {
 
 .container {
   display: grid;
-  /*grid-template-columns: repeat(3,250px);*/
-  gap:  1em;
+  grid-template-columns: repeat(3,250px);
+  gap: 1em;
   min-height: 100vh;
   min-width: 100vh;
   font-weight: 700;
@@ -105,4 +105,3 @@ background-color: darkolivegreen;
 .item-7:hover {
 background-color: darkslategrey;
 }
-
