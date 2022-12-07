@@ -1,4 +1,4 @@
-* {
+ * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
@@ -9,22 +9,36 @@ body {
   font-size: 1.2em;
 }
 
-.card > img {
-  width: 250px;
-  height: 100px;
-  margin: 0 auto;
-}
-
-img {
-  max-width: 100%;
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+  row-gap: 20px;
+  align-items: center;
   justify-content: center;
 }
 
-.tags {
-  display: grid;
-list-style: none;
+/*.card > img {
+  width: 700px;
+  height: 200px;  
+  object-fit: cover;
+}*/
+
+img {
+  width: 50vw;
+  height: 40vh;
+  display: block;
+  object-fit: cover;
+  object-position: center;
 }
 
-.items {
-  grid-auto-rows: 1fr;
+.tags {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background-color: grey;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 0.5em;
 }
